@@ -5,10 +5,12 @@ import(
 func main(){
 	var(
 		n  int
-		m  int = 0
+		m  int 
 		sum  int
 	)
 	for {
+
+		fmt.Print("请输入成绩，输入0结束：")
 		fmt.Scanln(&n)
 		if n == 0 {
 			break
